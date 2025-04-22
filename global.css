@@ -1,0 +1,66 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+:root {
+
+  /* BRAND */
+  --brand-light: #F67841;
+  --brand-mid: #F3541C;
+  --brand-dark: #E43A12;
+
+  /* TEXT COLOR */
+  --text-primary-color: #292524;
+  --text-secondary-color: #57534E;
+  --text-tertiary-color: #8F8881;
+  --text-highlight-color: #E43A12;
+
+  /* SURFACE */
+  --surface-primary-color: #FFFFFF;
+  --surface-secondary-color: #FEE7D6;
+  --surface-disable-color: #E7E5E4;
+  
+  /* STROKE */
+  --stroke-default--color: #D6D3D1;
+  --stroke-highlight-color: #F3541C;
+
+  /* SEMANTIC */
+  --semantic-error-color: #DC2626;
+
+  /* SUPPORTING */
+  --orange: #F9A474;
+  --yellow: #FEDF6F;
+  --green: #C7D78D;
+  --blue: #B8CEDC;
+  --violet: #C3B2E7;
+  --pink: #F682A5;
+
+  /*            TIPOGRAFIA                */
+
+  --font-family: "Poppins", sans-serif;
+  --text: 400 1rem/1.5 var(--font-family);
+  --text-sm: 400 0.875rem/1.4 var(--font-family);
+  --h1: bold 32px/120% var(--font-family);
+  --h2: bold 24px/120% var(--font-family);
+  --h3: bold 20px/120% var(--font-family);
+  --h4: bold 16px/120% var(--font-family);
+}
+
+
+body {
+  overflow: hidden;
+  font: var(--text);
+  color: var(--text-secondary-color);
+}
+
+h1, h2 {
+  color: var(--text-primary-color);
+}
+
+img {
+  max-width: 100%;
+}

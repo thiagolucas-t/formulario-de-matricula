@@ -28,7 +28,7 @@ label + .radio-wrapper {
   }
 
   .radio-image{
-    background-image:  url(/icons/circle.svg);
+    background-image:  url('../icons/circle.svg');
     position: absolute;
     width: 1.5rem;
     height: 1.5rem;
@@ -40,7 +40,7 @@ label + .radio-wrapper {
     border: 1px solid var(--stroke-highlight-color);
 
     & .radio-image {
-      background-image: url(/icons/circle-hover.svg);
+      background-image: url('../icons/circle-hover.svg');
     }
   }
 
@@ -48,7 +48,7 @@ label + .radio-wrapper {
     border: 2px solid var(--stroke-highlight-color);
 
     & .radio-image{
-      background-image: url(/icons/circle-mark.svg);
+      background-image: url('../icons/circle-mark.svg');
     }
   }
 }

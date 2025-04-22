@@ -22,20 +22,20 @@
 
 
   .checkbox-image {
-    flex: 0 0 1.5rem;
-    height: 1.5rem;
-    background-image: url(./icons/checkbox.svg)
-  } 
+      flex: 0 0 1.5rem;
+      height: 1.5rem;
+      background-image: url('../icons/checkbox.svg');
+    } 
 
-  &:hover, &:focus-within{
-    .checkbox-image {
-      background-image: url(./icons/checkbox-hover.svg);
+    &:hover, &:focus-within{
+      .checkbox-image {
+        background-image: url('../icons/checkbox-hover.svg');
+      }
     }
-  }
 
-  &:has(:checked){
-    .checkbox-image {
-      background-image: url(./icons/checkbox-marked.svg);
+    &:has(:checked){
+      .checkbox-image {
+        background-image: url('../icons/checkbox-marked.svg');
+      }
     }
-  }
 }
